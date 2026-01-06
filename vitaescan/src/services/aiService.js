@@ -2,7 +2,7 @@ import axios from 'axios';
 
 export const analyzeCandidates = async (jobDescription, candidatesFiles) => {
   // Asegúrate de que este puerto coincida con el de main.py (8000)
-  const API_URL = "https://vitaescan-backend.onrender.com";
+  const API_URL = "https://vitaescan-backend.onrender.com/analyze";
 
   const formData = new FormData();
   
