@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Evitamos que Google indexe los resultados temporales o archivos de sistema
+Disallow: /assets/
+Disallow: /api/
+
+# IMPORTANTE: Cambia esto por tu URL real cuando Render te la dé
+Sitemap: https://vitaescan.onrender.com/sitemap.xml
